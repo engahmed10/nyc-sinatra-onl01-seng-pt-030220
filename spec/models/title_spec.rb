@@ -6,7 +6,6 @@ describe "Title" do
     @mayor = Title.create(:name => "Mayor")
   end
 
-
   it "has a name" do 
     expect(@mayor.name).to eq("Mayor")
   end
