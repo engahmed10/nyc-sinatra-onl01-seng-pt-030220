@@ -55,7 +55,6 @@ end
     if !params[:landmark][:name].empty?
        @figure.landmarks << Landmark.create(name:params[:landmark][:name])
     end
-
     
     redirect to "/figures/#{@figure.id}"
   end
